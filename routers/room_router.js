@@ -14,7 +14,7 @@ room_router.get("/:id", getRoomById)
 room_router.post("/", addRoom)
 
 // mengupdate satu room
-room_router.patch("/", editRoom)
+room_router.patch("/:id", editRoom)
 
 // menghapus satu room
 room_router.delete("/:id", deleteRoom)
