@@ -1,4 +1,4 @@
-import mongoose, { SchemaTypes } from "mongoose";
+import mongoose from "mongoose";
 
 const Transaksi = mongoose.Schema({
   lama_sewa: {
@@ -18,13 +18,15 @@ const Transaksi = mongoose.Schema({
     required: true
   },
   customer: {
-    type: SchemaTypes.ObjectId,
+    type: mongoose.Schema.Types.ObjectId,
     ref: "Customer"
   },
-  room_id: {
-    type: SchemaTypes.ObjectId,
-    ref: "Room"
-  },
+  room: [
+    {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Room"
+    }
+  ],
 });
 
 export default mongoose.model("Transaksi", Transaksi)

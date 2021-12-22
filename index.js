@@ -3,6 +3,7 @@ import cors from "cors"
 import express from "express"
 import room_router from "./routers/room_router.js"
 import customerRouter from "./routers/customerRouter.js"
+import transaksiRouter from "./routers/transaksiRouter.js"
 
 mongoose.connect("mongodb://localhost:27017/sewa_room", {
     useNewUrlParser: true,
@@ -21,4 +22,5 @@ app.use(express.json())
 
 app.use("/room", room_router)
 app.use("/customer", customerRouter)
+app.use("/transaksi", transaksiRouter)
 app.listen("3000", () => console.log("Server berjalan di port 3000"))
