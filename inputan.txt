@@ -1,0 +1,23 @@
+//transaksi
+{
+	"lama_sewa": 2,
+	"tanggal_masuk": "Wed Dec 22 2021 23:52:55 GMT+0700 (Waktu Indonesia Barat)",
+	"tanggal_keluar": "Tue Dec 23 2021 23:52:55 GMT+0700 (Waktu Indonesia Barat)",
+	"total_pembayaran": 21000,
+	"customer": 61c356c93c93aab6a2105094,
+	"room": [61c356053c93aab6a210507f, 61c356213c93aab6a2105082]
+}
+
+//room
+{
+	"roomName": "Aula B",
+	"kapasitas": 250,
+	"harga": 2000
+}
+
+
+//customer
+{
+	"customer": "Aziz",
+	"kontak": 21930
+}

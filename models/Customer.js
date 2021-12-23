@@ -6,7 +6,7 @@ const Customer = mongoose.Schema({
     required: true
   },
   kontak: {
-    type: Number,
+    type: String,
     required: true
   },
 });

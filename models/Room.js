@@ -1,6 +1,10 @@
 import mongoose from "mongoose";
 
 const Room = mongoose.Schema({
+  roomName:{
+    type: String,
+    required: true
+  },
   kapasitas: {
     type: Number,
     required: true
@@ -12,4 +16,3 @@ const Room = mongoose.Schema({
 });
 
 export default mongoose.model("Room", Room)
-
