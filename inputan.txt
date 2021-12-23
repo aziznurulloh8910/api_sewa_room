@@ -4,8 +4,8 @@
 	"tanggal_masuk": "Wed Dec 22 2021 23:52:55 GMT+0700 (Waktu Indonesia Barat)",
 	"tanggal_keluar": "Tue Dec 23 2021 23:52:55 GMT+0700 (Waktu Indonesia Barat)",
 	"total_pembayaran": 21000,
-	"customer": 61c356c93c93aab6a2105094,
-	"room": [61c356053c93aab6a210507f, 61c356213c93aab6a2105082]
+	"customer": 61c4105cae94cd7e723ff793,
+	"room": [61c432a03fcb394b3b3156fc, 61c432923fcb394b3b3156fa]
 }
 
 //room
